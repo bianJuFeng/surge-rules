@@ -1,11 +1,14 @@
-#
+# Claude / Anthropic 官方核心域名（自有业务）
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,downloads.claude.ai
-DOMAIN-SUFFIX,assets-proxy.anthropic.com
-DOMAIN-SUFFIX,statsig.anthropic.com
-DOMAIN-SUFFIX,statsig.com
-DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
 
+# 第三方依赖（页面加载、报错收集、埋点，按需保留）
+# 若追求极致精准分流，可删除下面4行，会偶发页面异常
+DOMAIN-SUFFIX,sentry.io
+DOMAIN,statsig.anthropic.com
+DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-KEYWORD,datadoghq
