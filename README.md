@@ -11,7 +11,7 @@ Surge 在多个节点间切换时，导致同一账号的服务（如 Claude、G
 | 文件 | 用途 |
 |---|---|
 | `claude.list` | Claude / Anthropic 相关域名 |
-| `google.list` | Google / YouTube 相关域名 |
+| `google.list` | # Google Services  相关域名 |
 
 ## 规则格式
 
