@@ -1,5 +1,15 @@
-# 移除 Git 追踪，本地文件暂时保留
-git rm --cached .DS_Store
-# 提交忽略配置
-git add .gitignore
-git commit -m "add gitignore ignore .DS_Store mac file"
+# macOS 系统隐藏垃圾文件
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+__MACOSX
+
+# VSCode 本地配置（可选）
+.vscode/
+*.swp
+*.swo
+
+# 日志、临时文件
+*.log
+tmp/
