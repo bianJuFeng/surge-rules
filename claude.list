@@ -6,4 +6,5 @@ DOMAIN-SUFFIX,assets-proxy.anthropic.com
 DOMAIN-SUFFIX,statsig.anthropic.com
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,datadoghq.com
+
+DOMAIN-KEYWORD,datadoghq
