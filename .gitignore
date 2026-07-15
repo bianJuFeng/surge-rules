@@ -1,0 +1,5 @@
+# 移除 Git 追踪，本地文件暂时保留
+git rm --cached .DS_Store
+# 提交忽略配置
+git add .gitignore
+git commit -m "add gitignore ignore .DS_Store mac file"
