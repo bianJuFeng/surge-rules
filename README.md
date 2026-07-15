@@ -13,6 +13,7 @@ Surge 在多个节点间切换时，导致同一账号的服务（如 Claude、G
 | `claude.list` | Claude / Anthropic 相关域名 |
 | `google.list` | # Google Services  相关域名 |
 
+
 ## 规则格式
 
 每行一条 Surge RULE-SET 规则，仅包含匹配类型和域名，不含策略名（策略在 Surge 本地配置里统一指定）：
