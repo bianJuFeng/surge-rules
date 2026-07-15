@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,starzplay.com
 
 # MUBI 文艺电影平台
 DOMAIN-SUFFIX,mubi.com
+DOMAIN-SUFFIX,mubicdn.net
 
 ## 二、动漫/二次元流媒体
 # Crunchyroll 全球番剧
