@@ -1,0 +1,73 @@
+# ====================== 【视频流媒体｜美区IP分流组】 ======================
+# 以下平台使用美国纯净IP均可访问
+
+## Netflix
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflxso.net
+
+## Disney+ / Hulu / ESPN
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,hulustream.com
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,starplus.com
+
+## Max / HBO
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,wbd.com
+
+## Paramount+ / Showtime
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,showtime.com
+DOMAIN-SUFFIX,sho.com
+
+## Apple TV+
+DOMAIN-SUFFIX,tv.apple.com
+
+## Amazon Prime Video
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,m.media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-SUFFIX,atv-ps.amazon.com
+
+## Peacock (NBC环球 · 美国独占)
+DOMAIN-SUFFIX,peacocktv.com
+
+## Starz (美国独占)
+DOMAIN-SUFFIX,starz.com
+DOMAIN-SUFFIX,starzplay.com
+
+## Tubi (Fox · 美/加/墨/英/澳可用)
+DOMAIN-SUFFIX,tubi.tv
+DOMAIN-SUFFIX,tubitv.com
+
+## DAZN (体育 · 多国含美国)
+DOMAIN-SUFFIX,dazn.com
+DOMAIN-SUFFIX,dazn-api.com
+
+## MUBI (文艺院线 · 全球多国)
+DOMAIN-SUFFIX,mubi.com
+DOMAIN-SUFFIX,mubicdn.net
+
+## Criterion Channel (文艺院线 · 美加独占)
+DOMAIN-SUFFIX,criterionchannel.com
+
+## Kanopy (文艺院线 · 美/加/英/澳/新西兰)
+DOMAIN-SUFFIX,kanopy.com
+
+## Crunchyroll (动漫 · 200+国家)
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,crunchyrollcdn.com
+
+## HIDIVE (动漫 · 美/加/英/爱尔兰/澳)
+DOMAIN-SUFFIX,hidive.com
+
+## Viki / Rakuten (亚洲剧集 · 多国含美国)
+DOMAIN-SUFFIX,viki.com

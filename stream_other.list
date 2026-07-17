@@ -1,0 +1,27 @@
+# ====================== 【视频流媒体｜非美区 · 美区IP不可用】 ======================
+# 以下平台严格限定对应国家IP，美区代理无法解锁
+# 建议策略：REJECT 或 DIRECT（避免无效代理请求）
+
+## 英国 · BBC iPlayer
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbci.co.uk
+
+## 英国 · ITV / ITVX
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,itvstatic.com
+
+## 英国 · Channel 4 / All4
+DOMAIN-SUFFIX,channel4.com
+
+## 英国 · My5 (Channel 5)
+DOMAIN-SUFFIX,my5.tv
+
+## 日本 · niconico
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,dmc.nico
+
+## 加拿大 · Crave (Bell Media)
+DOMAIN-SUFFIX,crave.ca
+
+## 澳洲 · Stan
+DOMAIN-SUFFIX,stan.com.au
