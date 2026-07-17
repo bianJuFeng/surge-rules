@@ -71,3 +71,6 @@ DOMAIN-SUFFIX,hidive.com
 
 ## Viki / Rakuten (亚洲剧集 · 多国含美国)
 DOMAIN-SUFFIX,viki.com
+
+## JustWatch (影视搜索 · 无地区限制但风控严格)
+DOMAIN-SUFFIX,justwatch.com
