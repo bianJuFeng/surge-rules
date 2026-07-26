@@ -1,0 +1,37 @@
+# NAME: Spotify
+# AUTHOR: bianJuFeng
+# UPDATED: 2026-07-26
+
+# 主站 / 账号 / 品牌子域
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify.link
+DOMAIN-SUFFIX,spotify.design
+DOMAIN-SUFFIX,byspotify.com
+DOMAIN-SUFFIX,tospotify.com
+DOMAIN-SUFFIX,spotify-everywhere.com
+DOMAIN-SUFFIX,spotifycharts.com
+DOMAIN-SUFFIX,spotifycodes.com
+DOMAIN-SUFFIX,spotifyforbrands.com
+DOMAIN-SUFFIX,spotifyforvendors.com
+DOMAIN-SUFFIX,spotifyjobs.com
+
+# CDN(音频/图片/静态资源)
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+
+# 第三方 CDN 别名(Akamai/Fastly 共享域名,必须用 DOMAIN 精确匹配,不能用 DOMAIN-SUFFIX)
+DOMAIN,audio-ak-spotify-com.akamaized.net
+DOMAIN,audio4-ak-spotify-com.akamaized.net
+DOMAIN,heads-ak-spotify-com.akamaized.net
+DOMAIN,heads4-ak-spotify-com.akamaized.net
+DOMAIN,video-ak-cdn-spotify-com.akamaized.net
+DOMAIN,cdn-spotify-experiments.conductrics.com
+DOMAIN,spotify.com.edgesuite.net
+DOMAIN,spotify.map.fastly.net
+DOMAIN,spotify.map.fastlylb.net
+
+# 客户端兜底(覆盖桌面/移动端私有协议探测流量)
+USER-AGENT,*Spotify*
