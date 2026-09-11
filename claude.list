@@ -6,9 +6,20 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpclient.com
 
+# 登录链路（Google 登录用户必须加，否则登录态和主站IP不一致）
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
+
+# 人机验证（最容易被误判为"强制重登录"的环节）
+DOMAIN-SUFFIX,challenges.cloudflare.com
+
 # 第三方依赖（页面加载、报错收集、埋点，按需保留）
-# 若追求极致精准分流，可删除下面4行，会偶发页面异常
 DOMAIN-SUFFIX,sentry.io
 DOMAIN,statsig.anthropic.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-KEYWORD,datadoghq
+
+# IP 段兜底，防止未来新增子域名漏配
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
