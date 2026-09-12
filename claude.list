@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,gstatic.com
 
 # 人机验证（最容易被误判为"强制重登录"的环节）
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,hcaptcha.com
 
 # 第三方依赖（页面加载、报错收集、埋点，按需保留）
 DOMAIN-SUFFIX,sentry.io
