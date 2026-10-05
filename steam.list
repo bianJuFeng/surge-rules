@@ -1,4 +1,8 @@
-# Steam 主站 / 社区 / API
+# =======================================
+# Steam 综合分流规则 (Surge)
+# =======================================
+
+# --- Steam 核心域名 (主站/社区/API/商店) ---
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamgames.com
@@ -6,15 +10,35 @@ DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steambroadcast.akamaized.net
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,valvesoftware.com
 DOMAIN-SUFFIX,valve.net
+DOMAIN-SUFFIX,s.team
+DOMAIN-SUFFIX,steamdeck.com
+
+# --- Steam 关联游戏/平台 ---
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,dota2.com
 
-# Valve AS32590:客户端 CM 连接直接用 IP,域名规则命不中
+# --- Steam 下载与 CDN (注意：若走代理请确保节点支持 Steam) ---
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamchina.com
+DOMAIN-SUFFIX,steamdownload.com
+# 以下为国内 CDN 节点，建议仅在需要直连下载时放行 DIRECT
+DOMAIN-SUFFIX,steamcontent.tencent-cloud.net
+DOMAIN-SUFFIX,clngaa.com
+DOMAIN-SUFFIX,eccdnx.com
+DOMAIN-SUFFIX,bscstorage.net
+DOMAIN-SUFFIX,pinyuncloud.com
+DOMAIN-SUFFIX,pphimalayanrt.com
+DOMAIN-SUFFIX,queniujq.cn
+DOMAIN-SUFFIX,8686c.com
+
+# --- 特定媒体/CDN域名 (使用 DOMAIN 精确匹配防误杀) ---
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+
+# --- Valve AS32590 IP 段 (解决客户端 CM 直连 IP 不命中域名的问题) ---
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/23,no-resolve
 IP-CIDR,146.66.152.0/21,no-resolve
@@ -25,16 +49,4 @@ IP-CIDR,192.69.96.0/22,no-resolve
 IP-CIDR,205.196.6.0/24,no-resolve
 IP-CIDR,208.64.200.0/22,no-resolve
 IP-CIDR,208.78.164.0/22,no-resolve
-
-
-# SteamDownload.list
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,steamcontent.tencent-cloud.net
-DOMAIN-SUFFIX,clngaa.com
-DOMAIN-SUFFIX,eccdnx.com
-DOMAIN-SUFFIX,bscstorage.net
-DOMAIN-SUFFIX,pinyuncloud.com
-DOMAIN-SUFFIX,pphimalayanrt.com
-DOMAIN-SUFFIX,queniujq.cn
-DOMAIN-SUFFIX,8686c.com
+IP-CIDR,45.121.184.0/22,no-resolve
